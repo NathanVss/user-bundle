@@ -1,0 +1,6 @@
+services:
+    vss_user.manager:
+        class: Vss\UserBundle\Model\UserManager
+        arguments:
+            - "%vss.user_bundle%"
+            - "@doctrine.orm.entity_manager"

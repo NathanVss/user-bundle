@@ -1,0 +1,24 @@
+{
+    "name": "vss/user-bundle",
+    "description": "Provides powerful basic user managing tools.",
+    "type": "symfony2-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathan",
+            "email": "nathan.vasse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "2.8.*",
+        "doctrine/orm": "^2.4.8",
+        "doctrine/doctrine-bundle": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vss\\UserBundle\\": ""
+        }
+    }
+}
